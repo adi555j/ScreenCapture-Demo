@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{C6BEAC2C-ED79-45F3-9524-F892CA8E4831}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../GitHub/monodroid-samples/android5.0/ScreenCapture/ScreenCapture/ScreenCaptureFragment.cs">
+    <Files>
+      <File FileName="ScreenCapture/Properties/AssemblyInfo.cs" Line="1" Column="1" IsPinned="True" />
+      <File FileName="ScreenCapture/ScreenCaptureFragment.cs" Line="72" Column="3" />
+      <File FileName="ScreenCapture/Resources/layout/fragment_screen_capture.xml" />
+      <File FileName="../../GitHub/monodroid-samples/android5.0/ScreenCapture/ScreenCapture/ScreenCaptureFragment.cs" Line="201" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ScreenCapture" expanded="True">
+            <Node name="ScreenCapture" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ScreenCapture AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.KAAIGF000442RNJ" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>../../CommonSampleLibrary/CommonSampleLibrary.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/adi/Documents/Repo/ScreenCapture/ScreenCapture/ScreenCaptureFragment.cs" relfile="ScreenCapture/ScreenCaptureFragment.cs" line="176" column="1" />
+      <Breakpoint file="/Users/adi/Documents/Repo/ScreenCapture/ScreenCapture/ScreenCaptureFragment.cs" relfile="ScreenCapture/ScreenCaptureFragment.cs" line="209" column="1" />
+      <Breakpoint file="/Users/adi/Documents/Repo/ScreenCapture/ScreenCapture/ScreenCaptureFragment.cs" relfile="ScreenCapture/ScreenCaptureFragment.cs" line="234" column="1" />
+      <Breakpoint file="/Users/adi/Documents/Repo/ScreenCapture/ScreenCapture/ScreenCaptureFragment.cs" relfile="ScreenCapture/ScreenCaptureFragment.cs" line="173" column="1" />
+      <Breakpoint file="/Users/adi/Documents/Repo/ScreenCapture/ScreenCapture/ScreenCaptureFragment.cs" relfile="ScreenCapture/ScreenCaptureFragment.cs" line="201" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

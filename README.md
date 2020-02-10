@@ -30,6 +30,4 @@ This sample demonstrates how to use Media Projection API to capture device scree
 
 ![ScreenCapture application screenshot](Screenshots/Screen Capture.png "ScreenCapture application screenshot")
 
-## License
 
-Copyright 2014 The Android Open Source Project, Inc.

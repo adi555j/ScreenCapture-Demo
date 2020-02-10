@@ -1,5 +1,5 @@
 
-# ScreenCapture and Video save
+# Xamarin ScreenCapture and Video save
 
 This sample demonstrates how to use Media Projection API to capture device screen in real time and show it on a SurfaceView.
 

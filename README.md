@@ -1,15 +1,5 @@
 ---
 name: Xamarin.Android - ScreenCapture and video save
-description: "Demonstrates how to use Media Projection API to capture device screen in real time and show it on a SurfaceView (Android Lollipop)"
-page_type: sample
-languages:
-- csharp
-products:
-- xamarin
-extensions:
-    tags:
-    - androidlollipop
-urlFragment: android50-screencapture
 ---
 # ScreenCapture
 

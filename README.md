@@ -1,5 +1,5 @@
 ---
-name: Xamarin.Android - ScreenCapture
+name: Xamarin.Android - ScreenCapture and video save
 description: "Demonstrates how to use Media Projection API to capture device screen in real time and show it on a SurfaceView (Android Lollipop)"
 page_type: sample
 languages:
@@ -20,6 +20,7 @@ This sample demonstrates how to use Media Projection API to capture device scree
 * Launch the app on a Lollipop device or emulator.
 * On devices with display widths under 720dp, tap the Show Log button to show the sample's log.
 * Tap the start button to start capturing the screen and displaying it in the ScreenCaptureFragment's SurfaceView.
+* Saves videos in the root of your storage.
 
 ## Build Requirements
 

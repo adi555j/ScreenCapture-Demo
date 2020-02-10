@@ -10,7 +10,7 @@ item;obj/Debug/res/values-sw600dp/template-styles.xml
 LinearLayout;obj/Debug/res/layout/activity_main.xml
 LinearLayout;obj/Debug/res/layout/fragment_screen_capture.xml
 menu;obj/Debug/res/menu/main.xml
-resources;/Users/adi/Documents/GitHub/monodroid-samples/android5.0/ScreenCapture/ScreenCapture/obj/Debug/lp/0/jl/res/values/strings.xml
+resources;/Users/adi/Documents/Repo/ScreenCapture/ScreenCapture/obj/Debug/lp/0/jl/res/values/strings.xml
 resources;obj/Debug/res/values/base-strings.xml
 resources;obj/Debug/res/values/fragmentview_strings.xml
 resources;obj/Debug/res/values/strings.xml
@@ -22,7 +22,7 @@ resources;obj/Debug/res/values-v11/template-styles.xml
 resources;obj/Debug/res/values-v21/base-colors.xml
 resources;obj/Debug/res/values-v21/base-template-styles.xml
 ScrollView;obj/Debug/res/layout/activity_main.xml
-string;/Users/adi/Documents/GitHub/monodroid-samples/android5.0/ScreenCapture/ScreenCapture/obj/Debug/lp/0/jl/res/values/strings.xml
+string;/Users/adi/Documents/Repo/ScreenCapture/ScreenCapture/obj/Debug/lp/0/jl/res/values/strings.xml
 string;obj/Debug/res/values/base-strings.xml
 string;obj/Debug/res/values/fragmentview_strings.xml
 string;obj/Debug/res/values/strings.xml

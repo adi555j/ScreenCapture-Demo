@@ -179,14 +179,15 @@ namespace ScreenCapture
 
 		private void SetUpVirtualDisplay()
 		{
+			StartRecording();
 			Log.Info(TAG, "Setting up a VirtualDisplay: " + surfaceView.Width + "x" + surfaceView.Height + " (" + screenDensity + ")");
 			
 			virtualDisplay = mediaProjection.CreateVirtualDisplay("ScreenCapture",
 				surfaceView.Width, surfaceView.Height, screenDensity,
-				(DisplayFlags)VirtualDisplayFlags.AutoMirror, surface, null, null);
+				(DisplayFlags)VirtualDisplayFlags.AutoMirror, mMediaRecorder.Surface, null, null);
 
 			buttonToggle.SetText(Resource.String.stop);
-			StartRecording();
+			mMediaRecorder.Start();
 		}
 
 		private void StopScreenCapture()
@@ -194,20 +195,19 @@ namespace ScreenCapture
 			try
 			{
 				if (virtualDisplay == null)
-					return;
-
-				
-				
+					return;			
 				buttonToggle.SetText(Resource.String.start);
-				//mMediaRecorder.Stop();
-				//mMediaRecorder.Release();
+				mMediaRecorder.Stop();
+				mMediaRecorder.Release();
 				virtualDisplay.Release();
 				virtualDisplay = null;
 
 			}
 			catch (Exception e)
 			{
-
+				mMediaRecorder.Release();
+				virtualDisplay.Release();
+				virtualDisplay = null;
 			}
 
 		}
@@ -222,11 +222,11 @@ namespace ScreenCapture
 					mMediaRecorder.SetOutputFormat(OutputFormat.Webm);
 					//mMediaRecorder.SetVideoEncodingBitRate(512 * 1000);
 					mMediaRecorder.SetVideoEncoder(VideoEncoder.Vp8);
-					mMediaRecorder.SetVideoSize(640, 480);
+					mMediaRecorder.SetVideoSize(480, 640);
 					//mMediaRecorder.SetVideoFrameRate(10);
 					mMediaRecorder.SetOutputFile(path);
 					mMediaRecorder.Prepare();
-					mMediaRecorder.Start();
+					
 
 
 			}
